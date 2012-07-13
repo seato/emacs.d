@@ -10,11 +10,11 @@ installing emacs on fedora
 
 1. get the latest tarball and extract it:
 
-`    PRETEST_URL="http://ftp.gnu.org/gnu/emacs/"  
+    PRETEST_URL="http://ftp.gnu.org/gnu/emacs/"  
     FILENAME=$(curl -s ${PRETEST_URL} | sed -n 's/^.*a href="\(emacs-24.[0-9\.]*tar.gz\)".*$/\1/p' )  
     curl -o ${FILENAME} ${PRETEST_URL}${FILENAME}  
     tar -xzof $FILENAME  
-    cd ${FILENAME%.tar.gz}`
+    cd ${FILENAME%.tar.gz}
 
 2. install the dependencies:
 
