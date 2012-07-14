@@ -1,6 +1,7 @@
 #my emacs
 
 ##why emacs
+![solarized emacs](http://batsov.com/images/articles/solarized-emacs.png)
 There are many reasons for using emacs over a fleshed-out IDE, the typical response you'll find is:
 
 * You can use it in the terminal (emacs -nw, but I alias this)
