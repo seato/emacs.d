@@ -9,7 +9,7 @@ There are many reasons for using emacs over a fleshed-out IDE, the typical respo
 
 Though one reason that has made me appreciate emacs more is the bash shell.  
 
-The bash shell is on every linux system. And it uses the GNU Readline library which utilizes emacs key-bindings by default.  
+The bash shell is on every *nix system. And it uses the GNU Readline library which utilizes emacs key-bindings by default.  
 That means a lot of the typing tricks you've picked up for emacs will work in your bash shell.  More on that [here](http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/).
 
 It's a very petty reason, and you can easily switch the key-bindings to vi or customize it, but it's a the-more-you-know sort of thing.
