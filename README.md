@@ -9,10 +9,10 @@ There are many reasons for using emacs over a fleshed-out IDE, the typical respo
 
 Though one reason that has made me appreciate emacs more is the bash shell.  
 
-The bash shell is on every *nix system. And it uses the GNU Readline library which utilizes emacs key-bindings by default.  
+The bash shell is on _every_ *nix system. And it uses the GNU Readline library which utilizes emacs key-bindings by default.  
 That means a lot of the typing tricks you've picked up for emacs will work in your bash shell.  More on that [here](http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/).
 
-It's a very petty reason, and you can easily switch the key-bindings to vi or customize it, but it's a the-more-you-know sort of thing.
+It's a very petty reason, and you can easily switch the key-bindings to vi or customize it to something more familiar, but it's a the-more-you-know sort of thing.
 
 My personal .emacs.d, used with my .emacs that you can find [here](https://github.com/SuitAndThai/dotfiles).
 
@@ -68,12 +68,12 @@ overview of the most commonly used shortcuts to get you through this pain:
 * [A guided tour](http://www.gnu.org/software/emacs/tour/)
 * [How to learn emacs](http://david.rothlis.net/emacs/howtolearn.html)
 
-### Files
+### files
 
 * `C-x C-f` Open a file. Starts in the current directory
 * `C-x C-s` Save this file
 
-### Cut copy and paste
+### cut copy and paste
 
 Something you need to understand is that text highlighting in emacs is done via 'marking'.  
 You must 'mark' the beginning of your highlighting and your cursor is the ending 'mark' of the highlight.  
@@ -85,13 +85,13 @@ The [guided tour](http://www.gnu.org/software/emacs/tour/) can explain this more
 * `M-w    ` Copy
 * `C-y    ` Paste (aka yank)
 
-### General
+### general
 
 * `C-g    ` Quit out of whatever mess you've gotten yourself into, ABORT ABORT ABORT!
 * `M-x    ` Run a command by name
 * `C-/    ` Undo
 
-### Navigation
+### navigation
 
 * `C-arrow` Move past words/paragraphs
 * `C-a    ` Go to start of line
@@ -100,7 +100,7 @@ The [guided tour](http://www.gnu.org/software/emacs/tour/) can explain this more
 * `C-s    ` Search forward. Press `C-s` again to go further.
 * `C-r    ` Search backward. Press `C-r` again to go further.
 
-### Window management
+### window management
 
 * `C-x 0  ` Close this window
 * `C-x 1  ` Close other windows
@@ -108,7 +108,7 @@ The [guided tour](http://www.gnu.org/software/emacs/tour/) can explain this more
 * `C-x 3  ` Split window vertically
 * `S-arrow` Jump to window to the left/right/up/down
 
-### Help
+### help
 
 * `F1 t   ` Basic tutorial
 * `F1 k   ` Help for a keybinding
