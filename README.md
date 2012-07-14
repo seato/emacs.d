@@ -5,14 +5,15 @@
 There are many reasons for using emacs over a fleshed-out IDE, the typical response you'll find is:
 
 * You can use it in the terminal (emacs -nw, but I alias this)
-* It saves time (if your init isn't bloated, it starts up much faster than eclipse or visual studio)
+* It saves time (it starts up much faster than eclipse or visual studio)
+* You can add to it (fully programmable, you can even play tetris in it!)
 
-Though one reason that has made me appreciate emacs more is the bash shell.  
+However, the one reason that has made me appreciate emacs more is the bash shell.  
 
 The bash shell is on _every_ *nix system. And it uses the GNU Readline library which utilizes emacs key-bindings by default.  
 That means a lot of the typing tricks you've picked up for emacs will work in your bash shell.  More on that [here](http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/).
 
-It's a very petty reason, and you can easily switch the key-bindings to vi or customize it to something more familiar, but it's a the-more-you-know sort of thing.
+It's a very petty reason, and you can easily switch the key-bindings to vi or customize it to something more familiar, but it's a the-more-you-know sort of thing.  
 
 My personal .emacs.d, used with my .emacs that you can find [here](https://github.com/SuitAndThai/dotfiles).
 
