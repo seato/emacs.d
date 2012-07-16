@@ -24,8 +24,8 @@ This was partially influenced by [Magnar's emacs configurations](https://github.
 get the latest tarball and extract it:
 
     LATEST_STABLE="http://ftp.gnu.org/gnu/emacs/"  
-    FILENAME=$(curl -s ${PRETEST_URL} | sed -n 's/^.*a href="\(emacs-24.[0-9\.]*tar.gz\)".*$/\1/p' )  
-    curl -o ${FILENAME} ${PRETEST_URL}${FILENAME}  
+    FILENAME=$(curl -s ${LATEST_STABLE} | sed -n 's/^.*a href="\(emacs-24.[0-9\.]*tar.gz\)".*$/\1/p' )  
+    curl -o ${FILENAME} ${LATEST_STABLE}${FILENAME}  
     tar -xzof $FILENAME  
     cd ${FILENAME%.tar.gz}
 
