@@ -48,7 +48,7 @@ tell fedora of the new emacs path:
 
 badda bing badda boom:
 
-    emacs
+    emacs --version
 
 Credit to jonEbird for his helpful [blog post](http://jonebird.com/2011/12/29/installing-emacs-v24-on-fedora/) on the topic.  I really only made minor adjustments to it based off of the comments and my own experience.
 
